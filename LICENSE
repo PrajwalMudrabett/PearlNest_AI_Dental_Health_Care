@@ -1,0 +1,68 @@
+MIT License (Research and Educational Use Only)
+
+Copyright (c) 2024 Prajwal Mudrabett
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction for RESEARCH AND EDUCATIONAL PURPOSES ONLY,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+IMPORTANT RESTRICTIONS:
+
+1. RESEARCH AND EDUCATIONAL USE ONLY
+   This software is intended for research and educational purposes only.
+   It is NOT approved for clinical use, medical diagnosis, or treatment
+   decisions.
+
+2. NO CLINICAL APPLICATION
+   This software shall NOT be used in any clinical setting, for patient
+   diagnosis, treatment planning, or any medical decision-making without
+   proper validation, regulatory approval, and professional oversight.
+
+3. NO WARRANTY FOR MEDICAL USE
+   The software is provided for academic research and educational purposes.
+   No warranty is provided for accuracy, reliability, or fitness for any
+   medical or clinical purpose.
+
+4. COMMERCIAL USE
+   Commercial use requires written permission from the copyright holder.
+   Contact the repository owner for licensing inquiries.
+
+5. REGULATORY COMPLIANCE
+   Users are responsible for ensuring compliance with all applicable
+   regulations (FDA, CE, etc.) if this software is adapted for any
+   medical or clinical application.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+DISCLAIMER:
+
+PERLNEST is an experimental AI system for dental image analysis research.
+
+- NOT INTENDED for clinical diagnosis or treatment decisions
+- NOT FDA approved or clinically validated
+- NOT a substitute for professional dental evaluation
+- Predictions are for research purposes only
+
+Users acknowledge that:
+1. This is a research prototype
+2. Results may contain errors or inaccuracies
+3. Professional dental expertise is required for any clinical decisions
+4. The authors assume no liability for any use of this software
+
+For questions about licensing or commercial use:
+Contact: Prajwal Mudrabett
+GitHub: https://github.com/PrajwalMudrabett
+Repository: https://github.com/PrajwalMudrabett/PearlNest_AI_Dental_Health_Care
