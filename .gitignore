@@ -1,0 +1,205 @@
+# ============================================================
+# PERLNEST - Git Ignore Configuration
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# DATASETS - EXCLUDE ALL TRAINING/TEST DATA
+# ============================================================
+
+# Dataset directories
+dataset1/
+dataset2/
+dataset2_caries/
+dataset3/
+dataset3_filling_only/
+dataset3_findings/
+
+# Any folder with "dataset" in the name
+*dataset*/
+
+# Raw images and labels
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+!logo.png
+!sample_xray.jpg
+
+# Label files
+*.txt
+!requirements.txt
+!README.txt
+!LICENSE.txt
+
+# ============================================================
+# TRAINED MODELS - OPTIONAL (LARGE FILES)
+# ============================================================
+
+# YOLO weights (typically large files)
+*.pt
+*.pth
+*.weights
+*.onnx
+*.tflite
+*.pb
+
+# Model checkpoints
+runs/
+weights/
+checkpoints/
+
+# ============================================================
+# FRONTEND
+# ============================================================
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Frontend environment
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# ============================================================
+# BACKEND
+# ============================================================
+
+# Flask/API
+backend/.env
+backend/*.log
+backend/instance/
+backend/.webassets-cache
+
+# ============================================================
+# TEMPORARY AND CACHE FILES
+# ============================================================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================
+# DOCUMENTATION BUILD
+# ============================================================
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# ============================================================
+# COMPRESSED FILES (unless needed)
+# ============================================================
+
+*.zip
+*.tar.gz
+*.rar
+
+# ============================================================
+# ALLOW SPECIFIC IMPORTANT FILES
+# ============================================================
+
+# Keep these even if they match patterns above
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!package.json
+!package-lock.json
+
+# Keep documentation images
+!docs/*.png
+!docs/*.jpg
+
+# Keep sample/demo files
+!sample_xray.jpg
+!demo_*.jpg
+!demo_*.png

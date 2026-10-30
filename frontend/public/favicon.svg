@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141926"/>
+      <stop offset="100%" stop-color="#0A0D14"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1E2638" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Container -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  
+  <!-- Tooth Silhouette with Subtle Clinical Blue Fill -->
+  <path d="M32 14C23.5 14 18.5 17 17.5 23.5C16.5 30 18.5 36.5 21 44C22.8 49 25.5 52 26.8 52C27.8 52 28.8 47.5 29.8 42.5C30.8 38.5 31.2 37.5 32 37.5C32.8 37.5 33.2 38.5 34.2 42.5C35.2 47.5 36.2 52 37.2 52C38.5 52 41.2 49 43 44C45.5 36.5 47.5 30 46.5 23.5C45.5 17 40.5 14 32 14Z" fill="url(#primaryGrad)"/>
+  
+  <!-- Precision Focus Ring / Center Aperture -->
+  <circle cx="32" cy="26" r="4" fill="#FFFFFF"/>
+  <circle cx="32" cy="26" r="8" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

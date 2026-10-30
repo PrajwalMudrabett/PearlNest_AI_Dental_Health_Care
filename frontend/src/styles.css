@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #0A0D14;
+  color: #F1F5F9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #0A0D14;
+  color: #F1F5F9;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+h1, h2, h3, h4, .display-font {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.mono-font {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.25);
+  color: #ffffff;
+}
+
+/* Custom PACS Scrollbars */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #0A0D14;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #1E2638;
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #2D374D;
+}
+
+/* Professional Range Slider (Non-neon) */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: #1E2638;
+  border-radius: 999px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #3B82F6;
+  cursor: pointer;
+  border: 2px solid #0A0D14;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #2563EB;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #3B82F6;
+  cursor: pointer;
+  border: 2px solid #0A0D14;
+}
+
+/* Clean Card & Surface Utilities */
+.surface-card {
+  background-color: #111622;
+  border: 1px solid #1E2638;
+  border-radius: 12px;
+}
+
+.elevated-card {
+  background-color: #161D2D;
+  border: 1px solid #1E2638;
+  border-radius: 12px;
+}
+
+/* Subtle Drop Zone State */
+.drop-active {
+  border-color: #3B82F6 !important;
+  background-color: rgba(59, 130, 246, 0.04) !important;
+}
+
+/* Accessible reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
